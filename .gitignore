@@ -17,3 +17,5 @@ web-build/
 yarn.lock
 
 .idea/
+
+/app/api/firebase.config.ts

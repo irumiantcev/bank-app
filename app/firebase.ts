@@ -1,8 +1,7 @@
 import { initializeApp } from 'firebase/app';
 import { createUserWithEmailAndPassword, getAuth, signOut, signInWithEmailAndPassword } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
-
-const firebaseConfig = {};
+import { firebaseConfig } from './api/firebase.config';
 
 initializeApp(firebaseConfig);
 
